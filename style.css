@@ -1,0 +1,75 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url('sky2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: skyblue;
+    margin: 0;
+    overflow: hidden;
+    background-image: url('sky4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bird {
+    position: absolute;
+    background: url('bird.jpg');
+    height: 85px;
+    width: 85px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 15%;
+    margin: 0px;
+    /* background-color: white; */
+}
+
+.pole {
+    position: absolute;
+    height: 175px;
+    width: 60px;
+    background-color: rgb(0, 0, 0);
+    right: 50px;
+    margin: 0px;
+}
+
+#pole1 {
+    top: 0;
+}
+
+#pole2 {
+    bottom: 0;
+}
+
+
+#score_div {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+#restart_btn {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(222, 51, 51);
+    color: white;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.score_box {
+    border-radius: 10px;
+    background-color: rgb(200, 223, 219);
+}
